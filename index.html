@@ -6,27 +6,78 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zero UC Store</title>
 <style>
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background:#101827;
-  color:white;
-  font-family:Arial;
-  text-align:center;
-  padding:25px;
+  margin: 0;
+  min-height: 100vh;
+  padding: 25px 15px;
+  background: linear-gradient(135deg,#080e1c,#172b46);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
-h1 {color:#f5c542;}
+
+h1 {
+  color: #ffcc33;
+  font-size: clamp(36px,7vw,65px);
+  margin: 35px 0 15px;
+  text-shadow: 0 0 20px #ffcc3366;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
 .card {
-  background:#202d40;
-  padding:20px;
-  margin:15px auto;
-  border-radius:12px;
-  max-width:320px;
+  background: linear-gradient(145deg,#263b59,#17263c);
+  width: 100%;
+  max-width: 900px;
+  padding: 40px 20px;
+  margin: 25px auto;
+  border: 1px solid #526580;
+  border-radius: 22px;
+  box-shadow: 0 10px 30px #0006;
 }
+
 button {
-  background:#f5c542;
-  border:0;
-  padding:12px 25px;
-  border-radius:8px;
-  font-weight:bold;
+  background: linear-gradient(135deg,#ffdf70,#f5b900);
+  color: #111;
+  border: none;
+  border-radius: 12px;
+  padding: 18px 38px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 90%;
+  max-width: 450px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+@media(max-width:600px) {
+  body {
+    padding: 15px 8px;
+  }
+
+  .card {
+    padding: 35px 12px;
+    margin: 20px auto;
+  }
 }
 </style>
 </head>
