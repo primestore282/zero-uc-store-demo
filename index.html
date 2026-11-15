@@ -6,58 +6,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zero UC Store</title>
 <style>
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  min-height: 100vh;
-  padding: 25px 15px;
-  background: linear-gradient(135deg,#080e1c,#172b46);
+  padding: 0;
+  background: #080d19;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
+header {
+  padding: 65px 15px;
+  background: linear-gradient(135deg,#101d35,#080d19);
+}
+
 h1 {
-  color: #ffcc33;
-  font-size: clamp(36px,7vw,65px);
-  margin: 35px 0 15px;
-  text-shadow: 0 0 20px #ffcc3366;
+  color: #ffd34e;
+  font-size: clamp(38px,7vw,68px);
+  text-shadow: 0 0 25px #dba928;
 }
 
 h2 {
   font-size: 32px;
-}
-
-h3 {
-  font-size: 25px;
+  color: #ffd34e;
 }
 
 p {
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 19px;
 }
 
 .card {
-  background: linear-gradient(145deg,#263b59,#17263c);
-  width: 100%;
-  max-width: 900px;
-  padding: 40px 20px;
+  width: 94%;
+  max-width: 850px;
   margin: 25px auto;
-  border: 1px solid #526580;
+  padding: 45px 20px;
+  background: linear-gradient(145deg,#24344e,#121e32);
+  border: 1px solid #b58b2b;
   border-radius: 22px;
-  box-shadow: 0 10px 30px #0006;
+  box-shadow: 0 8px 30px #0008;
 }
 
 button {
-  background: linear-gradient(135deg,#ffdf70,#f5b900);
-  color: #111;
+  padding: 17px 38px;
   border: none;
   border-radius: 12px;
-  padding: 18px 38px;
-  font-size: 20px;
+  background: linear-gradient(135deg,#ffe58a,#d99d19);
+  color: #151515;
+  font-size: 19px;
   font-weight: bold;
 }
 
@@ -66,20 +66,20 @@ input, select {
   max-width: 450px;
   padding: 15px;
   font-size: 18px;
-  border-radius: 8px;
+  border-radius: 9px;
+}
+
+footer {
+  padding: 35px 15px;
+  color: #ffd34e;
 }
 
 @media(max-width:600px) {
-  body {
-    padding: 15px 8px;
-  }
-
   .card {
-    padding: 35px 12px;
-    margin: 20px auto;
+    padding: 30px 15px;
   }
 }
-</style>
+</style>  
 </head>
 <body>
 
